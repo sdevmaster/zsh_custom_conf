@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR="$HOME/.zsh/plugins/zsh_custom_conf"
 source $DIR/helpers.zsh
 
 loopDir $DIR/script source
