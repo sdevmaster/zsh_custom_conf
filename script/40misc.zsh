@@ -71,5 +71,3 @@ alias ll="ls -lah"
 
 alias sshm="ssh -M -S ~/.ssh/controlmaster/%r@%h:%p "
 alias sshc="ssh -S ~/.ssh/controlmaster/%r@%h:%p "
-
-alias fuck='echo $(sudo $(fc -ln -1 | tail -n 1)); fc -R; fc -R'
